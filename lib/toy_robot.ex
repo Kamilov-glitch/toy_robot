@@ -1,5 +1,20 @@
 defmodule ToyRobot.Robot do
   @doc """
+    Moves the robot forward one space in the direction it is facing
+
+    ## Examples
+      iex> alias ToyRobot.Robot
+      ToyRobot.Robot
+      iex> robot = %{north: 0, facing: :north}
+      %{north: 0, facing: :north}
+      iex> robot |> Robot.move
+      %{north: 1}
+  """
+  def move(robot) do
+
+  end
+
+  @doc """
   Moves the robot east one space.
 
   ## Examples
